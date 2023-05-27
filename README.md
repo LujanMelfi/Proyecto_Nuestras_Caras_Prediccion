@@ -13,8 +13,11 @@ Se utilizaron 23 fotos (1 por cada individuo) distintas a las fotos utilizadas c
 
 ## Backpropagation_una_capa_oculta
 Topología de la Red:
-Capa de Entrada: un input por cada componente principal. 
+
+Capa de Entrada: un input por cada componente principal.
+
 Capa Oculta única: se realizaron pruebas para determinar la cantidad de neuronas de esta capa. La función de transferencia será la logística.
+
 Capa de Salida: hay un neurona por cada persona del dataset. La función de transferencia será la logística. La neurona que dispare el valor mayor, será la predicción de la red.
 
 ## Backpropagation_dos_capas_ocultas
