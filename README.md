@@ -1,2 +1,24 @@
 # Proyecto_Nuestras_Caras_Prediccion
 Red Neuronal usando Backpropagation y TensorFlow para reconocer rostros
+
+# BACKPROPAGATION
+
+Se creó una red neuronal utilizando el algoritmo de Backpropagation a los fines de reconocer el rostro en imágenes de 23 individuos.
+
+Datos de entrenamiento:
+Para ello se realizó un análisis PCA de un data set de 230 imágenes, compuesto por 10 fotos de cada individuo. Se determinó el número óptimo de componentes a utilizar. Ese será el input de la red neuronal.
+
+Datos de testeo final:
+Se utilizaron 23 fotos (1 por cada individuo) distintas a las fotos utilizadas como datos de entrenamiento. 
+
+## Backpropagation_una_capa_oculta
+Topología de la Red:
+Capa de Entrada: un input por cada componente principal. 
+Capa Oculta única: se realizaron pruebas para determinar la cantidad de neuronas de esta capa. La función de transferencia será la logística.
+Capa de Salida: hay un neurona por cada persona del dataset. La función de transferencia será la logística. La neurona que dispare el valor mayor, será la predicción de la red.
+
+## Backpropagation_dos_capas_ocultas
+Topología de la Red: es igual a la anterior pero con DOS capas ocultas.
+En este caso, se trabajó con el mismo número de neuronas para la primera capa determinado en el script antedicho (número de neuronas óptimo para la predicción: 15).
+En este script se realizaron pruebas para determinar la cantidad de neuronas óptimas para la segunda capa oculta (para una buena predicción).
+
