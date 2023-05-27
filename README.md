@@ -36,4 +36,12 @@ En este script se realizaron pruebas para determinar la cantidad de neuronas óp
 A los fines de ahorrar tiempo y sólo ejecutar los scripts 4 y 5, se agregó al repositorio los archivos “x_pca_reduc.npy” y “x_pca_test_reduc.npy” (son salidas del script 3, necesarias para ejecutarlos).
 Las salidas de los scripts 1 y 2 son utilizadas en el script 3.
 
+# TENSORFLOW
+Se creó una red neuronal utilizando TensorFlow a los fines de reconocer el rostro en imágenes de 23 individuos.
+Utilizamos el mismo input que para el algoritmo de Backpropagation.
+
+# Cómo usarlo
+
+1. Ejecutar el script "tensorflow"
+
 
