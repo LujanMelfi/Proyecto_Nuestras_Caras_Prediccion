@@ -25,3 +25,11 @@ Topología de la Red: es igual a la anterior pero con DOS capas ocultas.
 En este caso, se trabajó con el mismo número de neuronas para la primera capa determinado en el script antedicho (número de neuronas óptimo para la predicción: 15).
 En este script se realizaron pruebas para determinar la cantidad de neuronas óptimas para la segunda capa oculta (para una buena predicción).
 
+# Cómo usarlo
+
+1. Ejecutar el script "austral_faces_train"
+2. Ejecutar el script "austral_faces_test"
+3. Ejecutar el script "pca"
+4. Ejecutar el script "Backpropagation_una_capa_oculta"
+5. Ejecutar el script "Backpropagation_dos_capas_ocultas"
+
