@@ -33,3 +33,7 @@ En este script se realizaron pruebas para determinar la cantidad de neuronas óp
 4. Ejecutar el script "Backpropagation_una_capa_oculta"
 5. Ejecutar el script "Backpropagation_dos_capas_ocultas"
 
+A los fines de ahorrar tiempo y sólo ejecutar los scripts 4 y 5, se agregó al repositorio los archivos “x_pca.npy” y “x_pca_test.npy” (son salidas del script 3, necesarias para ejecutarlos).
+Las salidas de los scripts 1 y 2 son utilizadas en el script 3.
+
+
